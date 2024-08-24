@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-banner-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 230px 250px;  
+    background-image: url("./banner/banner1.png") ; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    
+
+}
+ .header-banner-info{ 
+    text-align: right; 
+    
+}
+.header-info-title{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-info-text{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0px 30px 30px;
+}
+.btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+/* main start  */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.my-fail-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+.fail-year-info{
+    
+    
+}
+.fail-year-info-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fail-year-info-text{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item >li{
+    list-style: none;
+    margin-top: 5px;
+}   
+.green{
+    color: green;
+    margin-right: 5px;
+}
+.image{
+    border: 2px solid green;
+    background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 100%;
+    
+    
+}
+.image>img{
+    width: 450px;
+    /* background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 500px;
+    border: 2px solid green; */
+}
+.my-plan{
+    margin-top: 100px;
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+.card img{
+    padding: 10px;
+    width: 90px;
+}
+.call-naw-title{
+    text-align: start;
+    background-image: url("./image/watch.png"),  linear-gradient(90deg, #F15B22 , rgba(241, 91, 34, 0.00));
+    height: 300px;
+    padding: 60px 0px 0px 60px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    
+}
+.btn-pryme{
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+}
+footer{
+    background-color: #151414;
+    color: white;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 130px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;    
+}
+.footer-column > a{
+    color: white;
+}
+.icons{
+    
+    margin-top: 10px;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #151414;
+    color: aliceblue;
+}
