@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+
 }
 .header-banner-container{
     display: flex;
@@ -48,10 +51,6 @@ main{
     align-items: center;
     margin-top: 150px;
 }
-.fail-year-info{
-    
-    
-}
 .fail-year-info-title{
     color: #151414;
     font-size: 40px;
@@ -72,22 +71,27 @@ main{
     color: green;
     margin-right: 5px;
 }
-.image{
-    border: 2px solid green;
-    background-color: rgba(241, 91, 34, 0.20);
-    border-radius: 100%;
-    
-    
-}
 .image>img{
     width: 450px;
-    /* background-color: rgba(241, 91, 34, 0.20);
-    border-radius: 500px;
-    border: 2px solid green; */
 }
 .my-plan{
     margin-top: 100px;
     text-align: center;
+}
+.my-plan-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+.card-text{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
 .cards-container{
     display: flex;
@@ -103,12 +107,12 @@ main{
 }
 .call-naw-title{
     text-align: start;
-    background-image: url("./image/watch.png"),  linear-gradient(90deg, #F15B22 , rgba(241, 91, 34, 0.00));
+    background-image: url("./image/gradient2.png"),url("./image/watch.png") ;
     height: 300px;
     padding: 60px 0px 0px 60px;
     border-radius: 8px;
     margin-bottom: 100px;
-    
+    border-radius: 8px;  
 }
 .btn-pryme{
     color: #F15B22;
@@ -116,6 +120,7 @@ main{
     border: none;
     margin-top: 20px;
 }
+/* footer start  */
 footer{
     background-color: #151414;
     color: white;
@@ -139,6 +144,7 @@ footer{
 }
 .footer-column > a{
     color: white;
+    text-decoration: none;
 }
 .icons{
     
